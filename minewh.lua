@@ -2,7 +2,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/he
 
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = true,
+        ["Auto Perfect"] = false,
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
@@ -161,4 +161,5 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoReconnect"] = false,
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = true,
+
 }
