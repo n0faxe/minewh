@@ -41,12 +41,13 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
-        ["Auto Sell Every"] = 100,
+        ["Auto Sell Every"] = 500,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
+		["Unlock Ancient Ruin"] = true,
         ["Auto Element Rod"] = true,
-        ["Unlock Ancient Ruin"] = true,
+		["Auto Diamond Rod"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -163,3 +164,4 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
