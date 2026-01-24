@@ -19,10 +19,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = true,
-        ["Whitelist Username"] = {"Faxefacee"},
+        ["Enabled"] = false,
+        ["Whitelist Username"] = {""},
         ["Category Fish"] = {
-            "",
+            "Secret",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
