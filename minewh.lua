@@ -22,7 +22,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Faxefacee"},
         ["Category Fish"] = {
-            "Secret",
+            "",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
@@ -165,5 +165,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
 
 
