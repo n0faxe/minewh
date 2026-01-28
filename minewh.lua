@@ -58,6 +58,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Giant Squid",
             "Blob Shark",
             "Ghost Shark",
+			"Skeleton Narwhal",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
@@ -165,6 +166,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
 
 
 
