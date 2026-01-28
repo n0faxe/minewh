@@ -48,7 +48,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Ghostfinn Rod"] = true,
 		["Unlock Ancient Ruin"] = true,
         ["Auto Element Rod"] = true,
-		["Auto Diamond Rod"] = true,
+		["Auto Diamond Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -166,6 +166,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
 
 
 
