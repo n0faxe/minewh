@@ -84,7 +84,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = true,
+        ["Auto Use"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
             ["Luck Totem"] = 5,
@@ -103,7 +103,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = true,
+        ["Auto Enchant"] = false,
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
@@ -160,6 +160,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
 
 
 
