@@ -103,17 +103,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
+        ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
-            "Reeler II",
             "SECRET Hunter",
-            "Shark Hunter",
-            "Mutation Hunter III",
-            "Leprechaun II",
-            "Mutation Hunter II",
-            "Prismatic I",
         },
         ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
@@ -125,7 +119,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Prismatic I",
             "Mutation Hunter II",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -166,6 +160,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
 
 
 
