@@ -153,7 +153,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
-    ["AutoRemovePlayer"] = false,
+    ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = false,
     ["HideGUI"] = false,
@@ -162,6 +162,7 @@ _G.FishItConfig = _G.FishItConfig or {
 }
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/shake-kaitun-obfuscated.lua")end)wait(1)until s;loadstring(r)()
+
 
 
 
