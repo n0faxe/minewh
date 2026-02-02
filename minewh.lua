@@ -10,6 +10,12 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {
             "Sacred Guardian Squid",
 			{Variant = "Leviathan Rage"},
+			{Name = "Nine Tailed Fish", Variant = "Fairy Dust"},
+			{Name = "Nine Tailed Fish", Variant = "Gemstone"},
+			{Name = "Nine Tailed Fish", Variant = "Galaxy"},
+			{Name = "Nine Tailed Fish", Variant = "Lightning"},
+			{Name = "Nine Tailed Fish", Variant = "Corrupt"},
+			{Name = "Nine Tailed Fish", Variant = "Radio Active"},
             {Name = "Ruby", Variant = "Gemstone"},
             {Variant = "Leviathan's Rage"}, -- Variant Only
             -- {Tier = "Secret", Variant = "Leviathan's Rage"},  -- Tier + Variant
@@ -162,6 +168,7 @@ _G.FishItConfig = _G.FishItConfig or {
 }
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/shake-kaitun-obfuscated.lua")end)wait(1)until s;loadstring(r)()
+
 
 
 
