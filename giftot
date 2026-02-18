@@ -6,5 +6,6 @@ getgenv().autoGiftConfig = {
     TRADE_DELAY = 5,     -- Delay between trades (seconds)
     TRADE_TIMEOUT = 10,  -- Max wait time for trade response (seconds)
     EXIT_MAP = false      -- Exit to lobby after gift complete (true/false)
+}
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/Gift-obfuscated.lua")end)wait(1)until s;loadstring(r)()
