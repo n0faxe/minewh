@@ -53,7 +53,8 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
 		["Unlock Ancient Ruin"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
+		["Auto Element Rod 2"] = true,
 		["Auto Diamond Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
@@ -150,7 +151,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Heartfelt Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
         ["Endgame"] = "Element Rod",
     },
@@ -167,6 +168,7 @@ _G.FishItConfig = _G.FishItConfig or {
 }
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+
 
 
 
