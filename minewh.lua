@@ -22,19 +22,20 @@ _G.FishItConfig = _G.FishItConfig or {
         },
 
         ["Auto Accept Trade"] = true,
-        ["Auto Friend Request"] = false,
+        ["Auto Friend Request"] = true,
     },
     ["Auto Trade"] = {
         ["Enabled"] = false,
-        ["Whitelist Username"] = {""},
+        ["Whitelist Username"] = {"Faxefacee"},
         ["Category Fish"] = {
             "Secret",
+			"Mythic",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
-            "Megalodon",
-			"Elshark Gran Maja",
-            {Name = "Ruby", Variant = "Gemstone"},
+            -- "Megalodon",
+			-- "Elshark Gran Maja",
+            -- {Name = "Ruby", Variant = "Gemstone"},
             -- {Variant = "Leviathan's Rage"}, -- Variant Only
         },
         ["Item Name"] = {
@@ -168,6 +169,7 @@ _G.FishItConfig = _G.FishItConfig or {
 }
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+
 
 
 
