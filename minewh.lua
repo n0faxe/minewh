@@ -33,6 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
+			"Sacred Guardian Squid",
             -- "Megalodon",
 			-- "Elshark Gran Maja",
             -- {Name = "Ruby", Variant = "Gemstone"},
@@ -169,6 +170,7 @@ _G.FishItConfig = _G.FishItConfig or {
 }
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+
 
 
 
