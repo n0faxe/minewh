@@ -128,7 +128,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Prismatic I",
             "Mutation Hunter II",
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
