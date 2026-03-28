@@ -25,7 +25,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = false,
+        ["Enabled"] = true,
         ["Whitelist Username"] = {"faxefacee"},
         ["Category Fish"] = {
             "Secret",
@@ -33,7 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
-			"Sacred Guardian Squid",
+			-- "Sacred Guardian Squid",
             -- "Megalodon",
 			-- "Elshark Gran Maja",
             -- {Name = "Ruby", Variant = "Gemstone"},
