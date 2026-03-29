@@ -25,7 +25,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Whitelist Username"] = {"faxefacee"},
         ["Category Fish"] = {
             "Secret",
