@@ -55,8 +55,8 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
 		["Unlock Ancient Ruin"] = true,
-        ["Auto Element Rod"] = false,
-		["Auto Element Rod 2"] = true,
+        ["Auto Element Rod"] = true,
+		["Auto Element Rod 2"] = false,
 		["Auto Diamond Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
