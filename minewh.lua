@@ -29,7 +29,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Whitelist Username"] = {"faxefacee"},
         ["Category Fish"] = {
             "Secret",
-			"Mythic",
+			-- "Mythic",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
